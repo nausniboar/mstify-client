@@ -9,7 +9,7 @@ const Comment = (comment) => {
   return (
     <div className="comment">
       <div className="pfp-column">
-        <img className="user-pic" src="https://assets.stickpng.com/thumbs/585e4beacb11b227491c3399.png"/>
+        <img className="user-pic" src="https://res.cloudinary.com/beanboy/image/upload/v1697703007/585e4beacb11b227491c3399_jgrjza.png"/>
       </div>
       <div className="text-column">
         <div className="name-date-row">
