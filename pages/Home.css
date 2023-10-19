@@ -1,0 +1,125 @@
+.topbar {
+  inset: 2% 12% 2% 12%;
+  position:absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.titletext {
+  font-family: 'Young Serif';
+  inset: 0%;
+  text-align: left;
+  background-color: black;
+  font-size: 25px;
+}
+
+.twitterIcon {
+  width: 45px;
+  height: 45px;
+}
+
+.screen {
+  position:absolute;
+  inset: 10%;
+  background-color: #aaa;
+  font-size: 18px;
+}
+
+.foreground {
+  position: absolute;
+  inset: 0%;
+  z-index: 100;
+  margin-top: 15vh;
+}
+
+.inputRow {
+  flex-direction: row;
+  font-size: 18px;
+  margin: 3vh;
+}
+
+.inputBtn {
+  text-decoration: none;
+  font-weight: 400;
+  z-index: 100;
+  background-color: #2c2c2c;
+  color: #fff;
+  padding: 0.5em 1em 0.5em 1em;
+  font-size: 1em;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  border-radius: 3px;
+  border-style:none;
+  margin-left: -5px;
+}
+ 
+.inputBtn:hover {
+  background-color: #222;
+}
+.inputBtn:active {
+  background-color: #111;
+  transform:translateY(1px);
+}
+
+.inputUrl {
+  color: #333;
+  background-image: linear-gradient(white, #ddd);
+  padding: 0.5em;
+  font-size: 1em;
+  font-family: inherit;
+  outline: none;
+  border-radius: 5px;
+  border-style: hidden;
+  border-color: transparent;
+  width: 50%;
+}
+
+.inputUrl:focus {
+  border-bottom: 2px solid #000;
+  padding-bottom:0.4em;
+}
+
+.overlay-1 {
+  z-index: 0;
+  position:absolute;
+  inset: 0%;
+  background-color: '#fff';
+  background-image: url(https://j.gifs.com/y7Lkdx.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0px 0px 25px 25px black;
+}
+
+.overlay-2 {
+  position:absolute;
+  inset: 0%;
+  background-color: '#aaa';
+  background-image: url(https://manula.r.sizr.io/large/user/12518/img/film-damage-grain.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  mix-blend-mode: multiply;
+}
+
+.overlay-3 {
+  position:absolute;
+  inset: 0%;
+  background-image: url(https://fixthephoto.com/images/content/vignette-overlay-photoshop-21612358851.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  mix-blend-mode: multiply;
+  filter: brightness(70%)
+}
+
+.overlay-4 {
+  position:absolute;
+  inset: 0%;
+  background-image: url(https://res.cloudinary.com/beanboy/image/upload/v1697659540/mst3kbgtransparent_kmwkda.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
